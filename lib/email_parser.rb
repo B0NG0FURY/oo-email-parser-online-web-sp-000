@@ -15,6 +15,6 @@ class EmailAddressParser
        @email_addresses.split(/,\s*/)
     else
        @email_addresses.split(" ")
-     end
+    end
   end
 end
